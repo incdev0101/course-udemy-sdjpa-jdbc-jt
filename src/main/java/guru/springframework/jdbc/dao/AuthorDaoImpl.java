@@ -160,6 +160,8 @@ public class AuthorDaoImpl implements AuthorDao {
         }
     }
 
+
+
     private Author getAuthorFromRS(ResultSet resultSet) throws SQLException {
         Author author = new Author();
         author.setId(resultSet.getLong("id"));
