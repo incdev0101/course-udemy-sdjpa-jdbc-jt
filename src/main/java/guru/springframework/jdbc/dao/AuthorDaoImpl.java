@@ -111,6 +111,7 @@ public class AuthorDaoImpl implements AuthorDao {
         return null;
     }
 
+
     @Override
     public Author updateAuthor(Author author) {
         Connection connection = null;
